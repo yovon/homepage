@@ -17,9 +17,7 @@ Yoav earned his Bachelor's degree in physics *cum laude* from Tel Aviv
 University before advancing directly into PhD studies. He has served as lab
 instructor and is a recipient of the Dean's Honor for his undergraduate
 studies. Outside the university, he likes to try his hand at writing short
-sci-fi stories, exploring the questions science cannot explain. After completing
-his PhD, he plans to pursue a career in the space industry, dreaming of bringing
-humans to Mars.
+sci-fi stories, exploring the questions science cannot explain.
 
   </div>
 </div>
