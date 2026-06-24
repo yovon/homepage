@@ -46,7 +46,7 @@ jobs:
         env:
           # The Actions runner overrides baseURL so links/CSS resolve correctly,
           # whether served from username.github.io/repo/ or a custom domain.
-          HUGO_BASEURL: ${{ steps.pages.base_url }}
+          HUGO_BASEURL: ${{ steps.pages.outputs.base_url }}
         run: |
           hugo \
             --gc \
