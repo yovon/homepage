@@ -25,7 +25,7 @@ You can try the **lite version** right here in your browser, or download the
   style="width:100%; height:640px; border:1px solid #ccc; border-radius:8px;">
 </iframe>
 
-[Open WHIST (lite) in a new tab →](https://yovon.github.io/whist-web/) ·
+<a href="/projects/whist/" target="_blank" rel="noopener">Open WHIST full-screen in a new tab →</a> ·
 Full version (download) — *coming soon*
 
 <!-- Add more projects below as they come. -->
