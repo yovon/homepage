@@ -5,7 +5,7 @@
 # baseURL must match where the site is actually served, or CSS/links break.
 # For now it points at the GitHub Pages URL; swap in the custom domain later.
 
-baseURL = 'https://USERNAME.github.io/'   # TODO: set to your real github.io URL (or custom domain later)
+baseURL = 'https://yovon.github.io/homepage/'   # project-repo subpath. TODO: change 'homepage' if you name the repo differently; swap to custom domain later. (The Actions deploy auto-overrides this anyway.)
 locale = 'en-us'
 title = 'Yoav Ziv'                        # TODO: confirm your name / site title
 theme = 'PaperMod'
@@ -92,7 +92,7 @@ canonifyURLs = false
     url = 'https://orcid.org/0000-0000-0000-0000'
   [[params.socialIcons]]
     name = 'github'
-    url = 'https://github.com/USERNAME'
+    url = 'https://github.com/yovon'
 
   [params.assets]
     disableHLJS = true
