@@ -5,7 +5,7 @@
 # The GitHub Actions deploy auto-overrides this with the real Pages URL,
 # so this value mainly matters for local correctness.
 
-baseURL = 'https://yovon.github.io/homepage/'   # TODO: change 'homepage' if you name the repo differently; swap to custom domain later.
+baseURL = 'https://yoavziv.com/'   # custom domain (served at root; the /homepage/ subpath is gone)
 locale = 'en-us'
 title = 'Yoav Ziv'
 theme = 'PaperMod'
