@@ -1,0 +1,110 @@
+# =============================================================================
+# Hugo configuration — academic personal site (PaperMod theme)
+# =============================================================================
+# PLACEHOLDERS to finalize later are marked with  # TODO
+# baseURL must match where the site is actually served, or CSS/links break.
+# For now it points at the GitHub Pages URL; swap in the custom domain later.
+
+baseURL = 'https://USERNAME.github.io/'   # TODO: set to your real github.io URL (or custom domain later)
+locale = 'en-us'
+title = 'Yoav Ziv'                        # TODO: confirm your name / site title
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+enableEmoji = true
+# Pretty URLs and reliable asset paths when served from a subpath on GitHub Pages
+canonifyURLs = false
+
+[pagination]
+  pagerSize = 10
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+# ----------------------------------------------------------------------------
+# Top navigation menu
+# ----------------------------------------------------------------------------
+[menu]
+  [[menu.main]]
+    identifier = 'publications'
+    name = 'Publications'
+    url = '/publications/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'projects'
+    name = 'Projects'
+    url = '/projects/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'cv'
+    name = 'CV'
+    url = '/cv/'
+    weight = 30
+
+# ----------------------------------------------------------------------------
+# Theme parameters
+# ----------------------------------------------------------------------------
+[params]
+  env = 'production'
+  description = 'Astrophysics PhD student — research in [your field].'  # TODO
+  author = 'Yoav Ziv'                                                    # TODO
+  defaultTheme = 'auto'        # auto | light | dark
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowToc = false
+  disableScrollToTop = false
+  hidemeta = false
+  ShowWordCount = false
+
+  # ---- Landing page: PaperMod "profile mode" (bio + headshot + buttons) ----
+  [params.profileMode]
+    enabled = true
+    title = 'Yoav Ziv'                                                  # TODO
+    subtitle = "PhD student in Astrophysics. I study [your topic]. This site collects my publications, CV, and projects."  # TODO
+    imageUrl = '/images/headshot.jpg'   # TODO: drop your headshot at static/images/headshot.jpg
+    imageTitle = 'Yoav Ziv'
+    imageWidth = 150
+    imageHeight = 150
+    [[params.profileMode.buttons]]
+      name = 'Publications'
+      url = '/publications/'
+    [[params.profileMode.buttons]]
+      name = 'CV'
+      url = '/cv/'
+    [[params.profileMode.buttons]]
+      name = 'Projects'
+      url = '/projects/'
+
+  # ---- Social / academic icons (footer + profile) ----
+  # Remove any you don't want; fill in the real URLs.  # TODO
+  [[params.socialIcons]]
+    name = 'email'
+    url = 'mailto:yoavziv811@gmail.com'
+  [[params.socialIcons]]
+    name = 'googlescholar'
+    url = 'https://scholar.google.com/citations?user=YOUR_ID'
+  [[params.socialIcons]]
+    name = 'orcid'
+    url = 'https://orcid.org/0000-0000-0000-0000'
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/USERNAME'
+
+  [params.assets]
+    disableHLJS = true
+    favicon = '/favicon.ico'
+
+# ----------------------------------------------------------------------------
+# Markdown rendering — allow raw HTML in markdown ONLY where needed
+# (e.g. the <iframe> for the embedded simulation on the Projects page).
+# ----------------------------------------------------------------------------
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
