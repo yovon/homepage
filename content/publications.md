@@ -6,24 +6,13 @@ hidemeta: true
 ShowToc: false
 ---
 
-<!-- TODO: Replace the placeholders below with your real publications.
-     Send me your BibTeX (.bib) and I'll convert it to formatted entries.
-     Convention: newest first, grouped by year. **Bold** your own name. -->
-
-A full list is also available on
-[Google Scholar](https://scholar.google.com/citations?user=YOUR_ID) and
-[ORCID](https://orcid.org/0000-0000-0000-0000).
-
-## 2026
-
-1. **Y. Ziv**, A. Coauthor, B. Collaborator.
-   *Title of the paper goes here.*
-   Journal Name, Vol, Pages (2026).
-   [[arXiv](https://arxiv.org/abs/XXXX.XXXXX)] · [[DOI](https://doi.org/)] · [[PDF](#)]
+See also my [ORCID profile](https://orcid.org/0009-0008-2536-4608).
 
 ## 2025
 
-1. A. Coauthor, **Y. Ziv**, C. Collaborator.
-   *Another paper title.*
-   Journal Name, Vol, Pages (2025).
-   [[arXiv](https://arxiv.org/abs/XXXX.XXXXX)] · [[DOI](https://doi.org/)]
+1. M. J. Green, **Y. Ziv**, H.-W. Rix, D. Maoz, I. Hamoudy, T. Mazeh,
+   S. Faigler, M. C. Lam, K. El-Badry, G. Hume, J. Munday, P. Yarker.
+   *An upper limit on the frequency of short-period black hole companions to
+   Sun-like stars.*
+   Astronomy & Astrophysics **695**, A210 (2025).
+   [[DOI](https://doi.org/10.1051/0004-6361/202453271)]

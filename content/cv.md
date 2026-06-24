@@ -7,37 +7,33 @@ ShowToc: true
 TocOpen: false
 ---
 
-<!-- TODO: Fill in your real CV details, or replace this whole page with a link
-     to a PDF. To use a PDF instead: drop cv.pdf in static/files/ and replace
-     the body of this page with:  [Download my CV (PDF)](/files/cv.pdf) -->
-
-[Download PDF version](/files/cv.pdf)  <!-- TODO: add static/files/cv.pdf, or remove this line -->
+<!-- Optional: drop a PDF at static/files/cv.pdf and uncomment the next line.
+[Download PDF version](files/cv.pdf)
+-->
 
 ## Education
 
-- **PhD in Astrophysics**, University Name — *2023–present*
-  Advisor: Prof. Name. Thesis: *working title*.
-- **BSc in Physics**, University Name — *2019–2023*
+- **PhD in Astrophysics**, Tel Aviv University — *2024–present* <!-- TODO: confirm start year -->
+  Department of Astrophysics. Research on white dwarfs: population synthesis
+  simulations and searches for double-white-dwarf systems.
+- **BSc in Physics** (*cum laude*), Tel Aviv University — *2021–2024* <!-- TODO: confirm years -->
+  Advanced directly into PhD studies.
 
 ## Research Interests
 
-- Topic one
-- Topic two
-- Topic three
-
-## Experience
-
-- **Research Assistant**, Lab / Group Name — *2022–present*
+- White dwarfs and the late stages of stellar evolution
+- Population synthesis simulations
+- Double-white-dwarf systems
 
 ## Awards & Honors
 
-- Award name — *year*
+- Dean's Honor — undergraduate studies <!-- TODO: add year(s) -->
 
 ## Teaching
 
-- Course name (TA) — *term, year*
+- Lab Instructor, Tel Aviv University <!-- TODO: course name and term(s) -->
 
-## Skills
+## Outreach & Interests
 
-- **Programming:** Python, C++, ...
-- **Tools:** ...
+- Writes short science-fiction stories exploring questions science cannot yet
+  answer.

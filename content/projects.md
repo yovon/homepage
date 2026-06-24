@@ -6,36 +6,26 @@ hidemeta: true
 ShowToc: false
 ---
 
-<!-- TODO: Describe your projects here. Add as many sections as you like. -->
+## WHIST — White-dwarf HR-diagram Interactive Synthesis Tool
 
-## Interactive Simulation
+A tool to interactively see how different parameters affect the morphology of
+the HR diagram. Taking only fractions of a second to render a new simulation,
+you can explore the bounds of the properties that shape the white dwarf
+population.
 
-A short description of the simulation goes here — what it shows and why it's
-interesting.  <!-- TODO -->
+You can try the **lite version** right here in your browser, or download the
+**full version** — with more visuals and MCMC capabilities — *(coming soon)*.
 
-<!-- ===================================================================== -->
-<!-- SIM EMBED PLACEHOLDER                                                  -->
-<!-- The interactive sim lives in its own repo / GitHub Pages URL and is    -->
-<!-- embedded here by URL only. Replace SIM_URL below with the live sim's   -->
-<!-- github.io address, then uncomment the <iframe>. Do NOT copy the sim's  -->
-<!-- files into this repo.                                                  -->
-<!-- ===================================================================== -->
-
-<!--
+<!-- Live embed of the WHIST web app (hosted in its own repo).
+     TODO: update src if you move WHIST to a custom domain. -->
 <iframe
-  src="SIM_URL"
-  title="Interactive simulation"
+  src="https://yovon.github.io/whist-web/"
+  title="WHIST — White-dwarf HR-diagram Interactive Synthesis Tool"
   loading="lazy"
-  style="width:100%; height:600px; border:1px solid #ccc; border-radius:8px;">
+  style="width:100%; height:640px; border:1px solid #ccc; border-radius:8px;">
 </iframe>
--->
-<div style="width:100%; height:300px; border:2px dashed #ccc; border-radius:8px; display:flex; align-items:center; justify-content:center; color:#888; text-align:center;">
-  Interactive simulation will be embedded here.<br>
-  (Placeholder — swap in the live sim URL when ready.)
-</div>
 
-[Open the simulation in a new tab →](SIM_URL)  <!-- TODO: real sim URL -->
+[Open WHIST (lite) in a new tab →](https://yovon.github.io/whist-web/) ·
+Full version (download) — *coming soon*
 
-## Other Projects
-
-- **Project name** — one-line description. [[code](#)] · [[link](#)]
+<!-- Add more projects below as they come. -->
